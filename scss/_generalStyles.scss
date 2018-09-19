@@ -11,6 +11,7 @@
 
 .button {
     border-radius: 40px;
+    box-shadow: 2px 5px 5px #ccc;
     background-color: $buttonColor;
     color: $darkColor;
     font-family: $appleFont;
@@ -20,5 +21,11 @@
 
     &:hover {
         cursor: pointer;
+        color: $darkColor;
+    }
+
+    &:active {
+        box-shadow: none;
+        color: $darkColor;
     }
 }
