@@ -25,6 +25,13 @@ $appleFont: "Newtown";
 $roboto: "Roboto Light";
 $Averin: "AverinReg";
 
+//миксины
+
+@mixin media-breakpoint-down-xg {  //размер экрана меньше 1600px;
+    @media (max-width: 1600px) {
+        @content;
+    }
+}
 
 //Шрифты для всех элементов
 * {

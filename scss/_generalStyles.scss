@@ -7,6 +7,11 @@
     &_positionGenPage {
         margin-bottom: 70px;
     }
+
+    @include media-breakpoint-down-xg {
+        font-size: 58px;
+        margin-bottom: 40px;
+    }
 }
 
 .button {
@@ -27,5 +32,9 @@
     &:active {
         box-shadow: none;
         color: $darkColor;
+    }
+
+    @include media-breakpoint-down-xg {
+        padding: 5px 40px;
     }
 }
