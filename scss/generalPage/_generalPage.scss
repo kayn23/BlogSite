@@ -1,0 +1,14 @@
+@import '_BGImage.scss';
+
+.BGImage {
+    position: fixed;
+    z-index: -1;
+    background: url(../img/generalBG.jpg) -820px 0 ;
+    filter: blur(0.8);
+    height: 100vh;
+    max-width: 800px;
+    width: 45%;
+    @include media-breakpoint-down(lg) {
+        width: 30%;
+    }
+}

@@ -1,0 +1,14 @@
+@import '../bootstrap_scss/bootstrap.scss';
+@import '../fontawesome/scss/fontawesome.scss';
+@import '_variables.scss';
+
+
+.averin {
+    font-family: $Averin;
+}
+
+.newt {
+    font-family: $appleFont;
+}
+
+@import 'generalPage/_generalPage.scss'

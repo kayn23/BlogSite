@@ -1,0 +1,32 @@
+/**
+ * переменные и миксины
+ */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+@font-face {
+    font-family: 'Avenir Next';
+    src: url('../fonts/AvenirNextCyr-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'AverinReg';
+    src: url(../fonts/AvenirNextCyr-Regular.ttf);
+}
+
+// Цвета
+$liteColor: #ffffff;
+$buttonColor: #f5a623;
+$extraDark: #403937;
+$darkColor: #4a4a4a;
+$grayColor: #9b9b9b;
+
+// Шрифты
+$appleFont: "Newtown";
+$roboto: "Roboto Light";
+$Averin: "AverinReg";
+
+
+//Шрифты для всех элементов
+* {
+    font-family: $Averin, $roboto, sans-serif;
+}
